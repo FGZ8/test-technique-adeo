@@ -25,9 +25,10 @@
 Please keep track (notes) of how you analysed and fixed the issues to help us 
 understand the steps during the interview
 ```
-
+### DONE
 1. Adding review does not work
-2. Using the delete button works but elements comes back when i refresh the page 
+### DONE
+2. Using the delete button works but elements comes back when i refresh the page ***DONE***
 
 ## New Feature
 ```
@@ -35,10 +36,11 @@ Except for the testing libraries, No library/modules should be added to the depe
 (use only pure java)
 ```
 
+### DONE : Available at ***http://localhost:8080/api/events/search/{YourQuery}***
 1. We would like to enable a new route for the API `/search/{query}`. It will allow us
 to display filtered `events`.
 The events are displayed only if at least one band has a member with the name matching the given
-pattern.
+pattern. <br>
 
 Example: `/search/Wa`
 ```json
@@ -55,7 +57,7 @@ Example: `/search/Wa`
     },…
 }…]
 ```
-
+### DONE
 2. (BONUS) Add a `[count]` at each event and band 
 to display the number of child items.
 
